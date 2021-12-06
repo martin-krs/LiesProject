@@ -4,6 +4,10 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
 public class AudioPlayer {
+	
+	public static int counter = 0;
+	public static boolean play = true;
+	public static String[] silben = new String[5];
 
 	private Clip clip;
 
@@ -23,6 +27,18 @@ public class AudioPlayer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}		
+	}
+	
+	public static void read() {
+		if (play) {
+			if (counter < silben.length) {
+				AudioPlayer aupl = new AudioPlayer("\\" + silben[counter] + ".wav");
+				aupl.play();
+				counter++;
+			} else {
+				System.exit(0);
+			}
+		}
 	}
 	
 	public void play() {

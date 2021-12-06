@@ -13,8 +13,19 @@ public class Lies {
 		String opt = "";
 		String pagetext = WebpageReader.getTextFromURL(url);
 		text = WebpageReader.divString(pagetext);
-		AudioPlayer ap = new AudioPlayer("/soundtrack.wav");
-		ap.play();
+		//AudioPlayer ap = new AudioPlayer("/soundtrack.wav");
+		//ap.play();
+		
+		AudioPlayer.silben[0] = "ha";
+		AudioPlayer.silben[1] = "lo";
+		AudioPlayer.silben[2] = "au";
+		AudioPlayer.silben[3] = "to";
+		AudioPlayer.silben[4] = "mat";
+		
+		// Startet einen separaten eigenen Thread, der sich um das vorlesen kümmert.
+		// Dadurch blockiert die Eingabe für Pause und exit nicht das Vorlesen.
+		ReadLoop rl = new ReadLoop();
+		
 		boolean loop = true;
 		boolean shouldStop = true;
 		while (loop) {
@@ -22,10 +33,10 @@ public class Lies {
 			switch (opt) {
 			case "s":
 				if (shouldStop) {
-					ap.stop();
+					AudioPlayer.play = false;
 					shouldStop = !shouldStop;
 				} else if (!shouldStop) {
-					ap.play();
+					AudioPlayer.play = true;
 					shouldStop = !shouldStop;
 				}
 				break;
