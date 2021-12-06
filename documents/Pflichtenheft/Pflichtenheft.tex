@@ -9,10 +9,10 @@
 \end{center}
 
 \section{Zweck und Ziel}
-
+Es soll ein Programm entwickelt werden, welches mit dem Aufrufen des \glqq Lies.java\grqq Java-Programms den Inhalt einer beliebigen URL vorlesen soll. Dabei muss beachtet werden das die nicht dargestellten Bestandteile, zum Beispiel Tags und Metadaten, nicht vorgelesen werden sollen. Dieses Programm soll entwickelt werden um zum Beispiel Personen mit Sehbehinderung Webseiten hinter URLs inhaltlich zeigen zu können. Dies Pflichtenheft basiert auf dem existierenden Lastenheft dazu. Als Programmiersprache ist Java >= 11 mit dem OpenJDK zu nehmen. Desweiteren gelten alle weiteren Zwecke und Ziele des Lastenhefts, ausser, sie werden in Punkt 2 explizit fuer dieses Release ausgeschlossen.
 
 \section{Abgrenzung}
-
+Das Programm soll kein Graphic User Interface (GUI) enthalten und dem Programm wird es ebenfalls fast nur möglich sein Deutsche Webseiten vorzulesen, aufgrund von den auf Deutsch eingelesenen Silben.
 
 \section{Begriffe}
 
@@ -23,17 +23,46 @@
 \subsection{Akteure}
 
 \begin{itemize}
-	\item ertens
+	\item LA1 - Hauptprogramm (Lies)
+	\item LA2 - WebpageReader
+	\item LA3 - AudioPlayer
 \end{itemize}
 
 \subsection{Funktionen}
 
 \begin{itemize}
-	\item erstens
+	\item Übergebe beim Start die URL
+\begin{itemize}
+	\item java Lies www.ostfalia.de
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+	\item Drücke l um das Vorlesen zu starten
+\begin{itemize}
+	\item l
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+	\item Drücke s um das Vorlesen zu stoppen oder wieder zu starten
+\begin{itemize}
+	\item s
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+	\item Drücke e um das Vorlesen zu stoppen und das Programm zu beenden
+\begin{itemize}
+	\item e
+\end{itemize}
 \end{itemize}
 
 \subsection{Daten}
-
+Die ersten Daten mit dem das Programm konfrontiert wird ist die übergebene URL. Nachdem mithilfe dieser
+die Website geöffnet wurde, ist der gesamte HTML-Code in einem String gespeichert, der daraufhin bearbeitet
+und in kleinere Strings mit ausschließlich Inhalt aufgeteilt wird. Außerdem benötigt das Programm sämtliche
+wav-Dateien mit den gesprochenen Silben. Im Falle einer falsch übergebenen URL wird das Programm keinen nützlichen Output liefern. Sollte die URL ganz vergessen werden, wird der Nutzer dazu aufgefordert eine URL zu übergeben und das Programm beendet sich.
 
 
 \subsection{Regeln}
