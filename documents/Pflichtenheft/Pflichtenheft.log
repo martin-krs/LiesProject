@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  6 DEC 2021 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  6 DEC 2021 11:15
 entering extended mode
-**./Lastenheft.tex
-(Lastenheft.tex
+**./Pflichtenheft.tex
+(Pflichtenheft.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cl
@@ -275,8 +275,9 @@ tex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count191
 \l__pdf_internal_box=\box49
-) (Lastenheft.aux)
-\openout1 = `Lastenheft.aux'.
+)
+No file Pflichtenheft.aux.
+\openout1 = `Pflichtenheft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -292,35 +293,36 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
- [1
+[1
 
-{C:/Users/marti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
-
-LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     60.
-
+{C:/Users/marti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     60.
+(LaTeX3)     51.
 
- (Lastenheft.aux) ) 
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     51.
+
+
+(Pflichtenheft.aux) ) 
 Here is how much of TeX's memory you used:
- 4522 strings out of 479321
- 95410 string characters out of 2856583
- 524612 words of memory out of 3000000
- 21999 multiletter control sequences out of 15000+600000
+ 4519 strings out of 479321
+ 95311 string characters out of 2856583
+ 520618 words of memory out of 3000000
+ 21998 multiletter control sequences out of 15000+600000
  405566 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,6n,116p,10607b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/cm-super/cm-super-ts1.enc}<C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/marti/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/marti/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/marti/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Lastenheft.pdf (2 pages, 57593 bytes).
+ 111i,6n,116p,10610b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/enc/dv
+ips/cm-super/cm-super-ts1.enc}<C:/Users/marti/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/marti/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/marti/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/marti/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Pflichtenheft.pdf (1 page, 47651 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
