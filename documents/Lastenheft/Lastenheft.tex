@@ -1,12 +1,33 @@
-\documentclass[11pt]{scrartcl}
+\documentclass[12pt]{scrartcl}
  
-\usepackage[english,spanish,swedish,portuges,german]{babel}
+\usepackage{graphicx}
+\usepackage[english,german]{babel}
  
 \begin{document}
 
-\begin{center}
-\textbf{Lastenheft}
-\end{center}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Ostfalia Hochschule \par}
+	\vspace{1cm}
+	{\scshape\Large EKdI-Projekt\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Lastenheft\par}
+	\vspace{2cm}
+	{\Large\itshape Martin Krause, Tom Strunz, Patricia Weber, Kristin Wachenschwan\par}
+	\vfill
+	supervised by\par
+	Prof. \textsc{Jensen}
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+
+\tableofcontents
+\newpage
+
 
 \section{Zweck und Ziel}
 Es soll ein Programm entwickelt werden, welches mit dem Aufrufen des \glqq Lies.java\grqq Java-Programms den Inhalt einer beliebigen URL vorlesen soll. Dabei muss beachtet werden das die nicht dargestellten Bestandteile, zum Beispiel Tags und Metadaten, nicht vorgelesen werden sollen. Dieses Programm soll entwickelt werden um zum Beispiel Personen mit Sehbehinderung Webseiten hinter URLs inhaltlich zeigen zu können.
@@ -32,9 +53,10 @@ Das Programm soll kein Graphic User Interface (GUI) enthalten und dem Programm w
 
 \begin{itemize}
 	\item URL bei Programmstart übergeben
-	\item Vorlesen starten
-	\item Vorlesen stoppen und weiterspielen lassen
-	\item Programm beenden
+	\item Vorlesen starten, stoppen, weiterspielen oder beenden
+	\item Text aus Webseite ziehen und Steuerzeichen herausfiltern
+	\item Text in Silben aufteilen
+	\item Silben vorlesen lassen
 \end{itemize}
 
 \subsection{Daten}
@@ -56,6 +78,7 @@ wav-Dateien mit den gesprochenen Silben. Im Falle einer falsch übergebenen URL 
 	\item | Martin Krause | Ersterstellung | 01.11.21
 	\item | Kristin Altmann | Bearbeitung (1. \& 2. Punkt) | 06.11.21
 	\item | Martin Krause | Funktionen und Daten überarbeitet | 06.12.21
+	\item | Martin Krause | Deckblatt, Inhaltsverzeichnis, Funktionen bearbeitet | 13.12.21
 \end{enumerate}
  
 \end{document}

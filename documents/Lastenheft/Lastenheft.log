@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  6 DEC 2021 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  13 DEC 2021 12:21
 entering extended mode
 **./Lastenheft.tex
 (Lastenheft.tex
@@ -122,18 +122,18 @@ Package: tocbasic 2021/03/17 v3.33 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
-Package scrartcl Info: You've used standard option `11pt'.
+Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             This is correct!
-(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             Internally I'm using `fontsize=12pt'.
 (scrartcl)             If you'd like to set the option with \KOMAoptions,
-(scrartcl)             you'd have to use `fontsize=11pt' there
-(scrartcl)             instead of `11pt', too.
-Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 2239.
 
-(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt
 .clo
-File: scrsize11pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (11pt
+File: scrsize12pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (12pt
 )
 )
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
@@ -146,21 +146,21 @@ Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@temp=\skip51
 \footheight=\skip52
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
+(typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1741.
 )
 \c@part=\count180
@@ -212,13 +212,34 @@ Package tocbasic Info: babel extension for `lot' omitted
 \c@table=\count187
 Class scrartcl Info: Redefining `\numberline' on input line 6303.
 \bibindent=\dimen138
+)
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
 ) (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/04/07 3.57 The Babel package
 
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2021/04/07 3.57 Babel common definitions
 \babel@savecnt=\count188
-\U@D=\dimen139
+\U@D=\dimen141
 \l@babelnohyphens=\language79
 
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
@@ -243,24 +264,6 @@ Package babel Info: \l@australian = using hyphenrules for ukenglish
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language73) on input line 108.
 )
-(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
-df
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks16
-\es@quotdepth=\count190
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-)
-(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/babel-swedish\swedish.l
-df
-Language: swedish 2021/02/06 v2.3e Swedish support from the babel system
-)
-(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portuges
-.ldf
-Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-)
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\german.ldf
 Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthograph
 y)
@@ -269,58 +272,144 @@ y)
 f
 Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthograp
 hy)
+Package babel Info: Making " an active character on input line 139.
 )))
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count191
+\l__color_backend_stack_int=\count190
 \l__pdf_internal_box=\box49
 ) (Lastenheft.aux)
 \openout1 = `Lastenheft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
-{C:/Users/marti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen142
+\scratchbox=\box50
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen143
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks17
+)
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+ (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) [1
+
+{C:/Users/marti/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(Lastenheft.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+\tf@toc=\write3
+\openout3 = `Lastenheft.toc'.
+
+ [2] [3]
+Overfull \hbox (10.94624pt too wide) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/12 | Mar-tin Krau-se | Deck-blatt, In-halts-ver-zeich-nis, Funk-
+tio-nen be-ar-bei-tet | 13.12.21 
+ []
+
+[4]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     61.
+(LaTeX3)     84.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     61.
+(LaTeX3)     84.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     84.
 
  (Lastenheft.aux) ) 
 Here is how much of TeX's memory you used:
- 4522 strings out of 479321
- 95410 string characters out of 2856583
- 524612 words of memory out of 3000000
- 21999 multiletter control sequences out of 15000+600000
- 405566 words of font info for 34 fonts, out of 8000000 for 9000
+ 5385 strings out of 479321
+ 109187 string characters out of 2856583
+ 536136 words of memory out of 3000000
+ 22798 multiletter control sequences out of 15000+600000
+ 410145 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,6n,116p,10607b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,6n,116p,10607b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
 s/cm-super/cm-super-ts1.enc}<C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/marti/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/marti/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/marti/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Lastenheft.pdf (2 pages, 58457 bytes).
+/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/marti/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/marti/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marti/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/mar
+ti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/
+Users/marti/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.
+pfb>
+Output written on Lastenheft.pdf (4 pages, 80427 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
