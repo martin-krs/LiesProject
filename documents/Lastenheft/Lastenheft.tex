@@ -13,7 +13,7 @@
 	\vspace{1.5cm}
 	{\huge\bfseries Lastenheft\par}
 	\vspace{2cm}
-	{\Large\itshape Martin Krause, Tom Strunz, Patricia Weber, Kristin Wachenschwan\par}
+	{\Large\itshape Martin Krause 70478294, Tom Strunz 70476813, Patricia Weber 70477439, Kristin Altmann 70476503\par}
 	\vfill
 	supervised by\par
 	Prof. \textsc{Jensen}
@@ -36,41 +36,66 @@ Es soll ein Programm entwickelt werden, welches mit dem Aufrufen des \glqq Lies.
 Das Programm soll kein Graphic User Interface (GUI) enthalten und dem Programm wird es ebenfalls fast nur möglich sein Deutsche Webseiten vorzulesen, aufgrund von den auf Deutsch eingelesenen Silben.
 
 \section{Begriffe}
-
+\begin{itemize}
+    \item 'URL': Adressierung der vorzulesenden Website
+    \item 'vorlesen': Abspielen von wav-Dateien, die den Worten des Texts entsprechen
+    \item 'Text': der Haupttext auf der Website
+    \item 'Start': Beginn/ Fortsetzen des Vorlesens
+    \item 'Stopp': Unterbrechen des Vorlesens
+    \item 'parsen': Zerlegen und umwandeln für eine Weiterverarbeitung
+    \item 'Silbe': eine Buchstabenkombination einer Silbe im grammatikalischen Sinne zuweisbar ist, gilt dies als Silbe. Da nicht alle Silben der deutschen Sprache eingesprochen werden können, werden Buchstaben, die nicht                 einer Silbe zugeordnet werden können, als Silbe aus nur einem Buchstaben betrachtet.
+\end{itemize}
 
 \section{Soll-Stand}
+Was soll erreicht werden?
+Das Programm soll einen Text von einer Website, deren URL dem Programm übergeben wurde, einlesen und dann vorlesen.
+Wie soll das erreicht werden?
+Das Programm besteht im Wesentlichen aus zwei Teilen: dem Einlesen und dem Vorlesen. Beim Einlesen werden zuerst Daten von der Website abgegriffen und der HTML-Code geparst. Für das Vorlesen müssen Start, Stopp, das Trennen des Texts in Silben und das Wandeln der Silben in gesprochene Sprache. Die Silben müssen dementsprechend noch eingesprochen werden.
+Was kann noch erreicht werden?
+Es könnte eine Warnungen ausgegeben werden, wenn der Text wahrscheinlich nicht auf Deutsch ist, zu lang ist oder die wav-Dateien, die zum Vorlesen nötig sind, nicht gefunden werden. Außerdem könnte der vorgelesene Text ausgegeben werden.
 
-
-\subsection{Akteure}
-
-\begin{itemize}
-	\item LA1 - Hauptprogramm (Lies)
-	\item LA2 - WebpageReader
-	\item LA3 - AudioPlayer
-\end{itemize}
 
 \subsection{Funktionen}
 
 \begin{itemize}
-	\item URL bei Programmstart übergeben
-	\item Vorlesen starten, stoppen, weiterspielen oder beenden
-	\item Text aus Webseite ziehen und Steuerzeichen herausfiltern
-	\item Text in Silben aufteilen
-	\item Silben vorlesen lassen
+	\item LF1: Beim Programmstart, wird eine URL übergeben.
+	\item LF2: Das Vorlesen kann gestartet werden und beliebig pausiert und wieder weitergespielt werden. Außerdem
+	kann das Programm beliebig beendet werden.
+	\item LF3: Der Text aus einer Webseite wird herauskopiert.
+	\item LF4: Der Text wird geparst und die Steuerzeichen werden herausgefiltert.
+	\item LF5: Der Text wird in Silben bzw. einzelne Buchstaben aufgeteilt.
+	\item LF6: Die Silben werden nacheinander abgespielt.
+	\item LF7: Der Thread kümmert sich in einer Endlosschleife um das Vorlesen nach einer bestimmten kurzen Pause.
 \end{itemize}
 
 \subsection{Daten}
 
-Die ersten Daten mit dem das Programm konfrontiert wird ist die übergebene URL. Nachdem mithilfe dieser
-die Website geöffnet wurde, ist der gesamte HTML-Code in einem String gespeichert, der daraufhin bearbeitet
-und in kleinere Strings mit ausschließlich Inhalt aufgeteilt wird. Außerdem benötigt das Programm sämtliche
-wav-Dateien mit den gesprochenen Silben. Im Falle einer falsch übergebenen URL wird das Programm keinen nützlichen Output liefern. Sollte die URL ganz vergessen werden, wird der Nutzer dazu aufgefordert eine URL zu übergeben und das Programm beendet sich.
+\begin{itemize}
+	\item LD1: Die ersten Daten mit dem das Programm konfrontiert wird ist die übergebene URL.
+	\item LD2: Mit Tastatureingabe \glqq l\grqq beginnt das Programm mit dem Vorlesen.
+	\item LD3: Mit Tastatureingabe \glqq s\grqq kann das Vorlesen gestoppt und wieder weitergespielt werden.
+	\item LD4: Mit Tastatureingabe \glqq e\grqq kann das Programm beendet werden.
+	
+\end{itemize}
+
 
 \subsection{Regeln}
+
+\begin{itemize}
+	\item LR1: Das Programm soll mit dem Aufruf java Lies \glqq URL\grqq den Inhalt einer beliebigen URL vorlesen.
+	\item LR2: Andere Libraries als die der Oracle JDK oder OpenJDK dürfen nicht verwendet werden.
+	\item LR3: Der Aufruf externer Services oder Programme zum Vorlesen ist nicht erlaubt.
+	\item LR4: Nicht dargestellte Bestandteile einer Website, d.h. Tags oder Metadaten, dürfen nicht vorgelesen werden.
+	\item LR5: Falls eine nicht bekannte Webseite aufgerufen werden soll, wird eine Fehlermeldung ausgegeben.
+	\item LR6: Falls eine nicht vorhandene Ton-Datei abgespielt werden soll, wird eine Fehlermeldung ausgegeben.
+\end{itemize}
 
 
 \subsection{Nichtfunktionale Anforderungen}
 
+\begin{itemize}
+	\item NA1: Das Programm soll von Personen mit Sehbehinderung bedient werden können.
+\end{itemize}
 
 \section{Dokumentenhistorie}
 
@@ -78,6 +103,8 @@ wav-Dateien mit den gesprochenen Silben. Im Falle einer falsch übergebenen URL 
 	\item | Martin Krause | Ersterstellung | 01.11.21
 	\item | Kristin Altmann | Bearbeitung (1. \& 2. Punkt) | 06.11.21
 	\item | Martin Krause | Funktionen und Daten überarbeitet | 06.12.21
+	\item | Tom Strunz | Begriffe, Soll-Stand überarbeitet | 13.12.21
+	\item | Patricia Weber | Regeln, Nichfunktionale Anforderungen | 13.12.21
 	\item | Martin Krause | Deckblatt, Inhaltsverzeichnis, Funktionen bearbeitet | 13.12.21
 \end{enumerate}
  
