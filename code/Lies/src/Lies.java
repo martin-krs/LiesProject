@@ -13,8 +13,6 @@ public class Lies {
 		String opt = "";
 		String pagetext = WebpageReader.getTextFromURL(url);
 		text = WebpageReader.divString(pagetext);
-		//AudioPlayer ap = new AudioPlayer("/soundtrack.wav");
-		//ap.play();
 		
 		AudioPlayer.silben[0] = "ha";
 		AudioPlayer.silben[1] = "lo";

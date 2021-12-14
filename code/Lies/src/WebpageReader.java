@@ -1,9 +1,6 @@
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.Scanner;
-//import org.jsoup.Connection;
-//import org.jsoup.Jsoup;
-//import org.jsoup.nodes.Document;
 
 public class WebpageReader {
 
@@ -34,10 +31,6 @@ public class WebpageReader {
 	public static LinkedList<String> divString(String s) {
 		LinkedList<String> result = new LinkedList<String>();
 		String[] split = s.split(" ", 0);
-		// noch löschen
-		for  (int i = 0; i < split.length; i++) {
-			System.out.println(split[i]);
-		}
 		return result;
 	}
 	
@@ -67,15 +60,5 @@ public class WebpageReader {
 	}*/
 	
 	
-/**		String text = "";
-    Connection conn = Jsoup.connect(url);
-    Document doc;
-	try {
-		doc = conn.get();
-	    text = doc.body().text();
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
-	return text;*/
 
 }

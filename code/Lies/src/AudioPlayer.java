@@ -1,3 +1,5 @@
+import java.io.File;
+
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
@@ -12,7 +14,9 @@ public class AudioPlayer {
 	private Clip clip;
 
 	public AudioPlayer(String path) {
+		File audioFile = new File(path);
 		try {
+			//AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(getClass().getResource(path));
 			
 			AudioFormat baseFormat = audioInputStream.getFormat();
@@ -32,6 +36,7 @@ public class AudioPlayer {
 	public static void read() {
 		if (play) {
 			if (counter < silben.length) {
+				//AudioPlayer aupl = new AudioPlayer("..//res/" + silben[counter] + ".wav");
 				AudioPlayer aupl = new AudioPlayer("\\" + silben[counter] + ".wav");
 				aupl.play();
 				counter++;
