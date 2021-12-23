@@ -2,7 +2,7 @@
 public class ReadLoop implements Runnable {
 	
 	public long lastTime = System.currentTimeMillis();
-	public double timeDistance = 550;
+	public double timeDistance = 500;//550
 	public double delta = 0;
 	
 	private Thread thread;

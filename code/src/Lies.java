@@ -14,11 +14,25 @@ public class Lies {
 		String pagetext = WebpageReader.getTextFromURL(url);
 		text = WebpageReader.divString(pagetext);
 		
+		/**
+		for (int i = 0; i < 40; i++) {
+			if (i % 4 == 0) {
+				AudioPlayer.silben[i] = "au";
+			} else if (i % 4 == 1){
+				AudioPlayer.silben[i] = "to";
+			} else if (i % 4 == 2){
+				AudioPlayer.silben[i] = "ha";
+			} else {
+				AudioPlayer.silben[i] = "au";
+			}
+		}*/
+		
 		AudioPlayer.silben[0] = "ha";
 		AudioPlayer.silben[1] = "lo";
 		AudioPlayer.silben[2] = "au";
 		AudioPlayer.silben[3] = "to";
-		AudioPlayer.silben[4] = "mat";
+		AudioPlayer.silben[4] = "and";
+		AudioPlayer.silben[5] = "abe";
 		
 		// Startet einen separaten eigenen Thread, der sich um das vorlesen kümmert.
 		// Dadurch blockiert die Eingabe für Pause und exit nicht das Vorlesen.
