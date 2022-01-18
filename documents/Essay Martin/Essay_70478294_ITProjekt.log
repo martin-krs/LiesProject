@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  18 JAN 2022 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.16)  18 JAN 2022 01:07
 entering extended mode
-**./Essay_70478294_Teamprojekt.tex
-(Essay_70478294_Teamprojekt.tex
+**./Essay_70478294_ITProjekt.tex
+(Essay_70478294_ITProjekt.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cl
@@ -422,8 +422,9 @@ tex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box49
-) (Essay_70478294_Teamprojekt.aux)
-\openout1 = `Essay_70478294_Teamprojekt.aux'.
+)
+No file Essay_70478294_ITProjekt.aux.
+\openout1 = `Essay_70478294_ITProjekt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -494,9 +495,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
- (Essay_70478294_Teamprojekt.out) (Essay_70478294_Teamprojekt.out)
 \@outlinefile=\write3
-\openout3 = `Essay_70478294_Teamprojekt.out'.
+\openout3 = `Essay_70478294_ITProjekt.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -506,7 +506,8 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
 (scrartcl)           before \begin{document} on input line 7.
- (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+
+(C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (C:\Users\marti\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -598,19 +599,25 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 (LaTeX3)     77.
 
- (Essay_70478294_Teamprojekt.aux)
-Package rerunfilecheck Info: File `Essay_70478294_Teamprojekt.out' has not chan
-ged.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ (Essay_70478294_ITProjekt.aux)
+
+Package rerunfilecheck Warning: File `Essay_70478294_ITProjekt.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Essay_70478294_ITProjekt.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11628 strings out of 479321
- 201732 string characters out of 2856583
- 656667 words of memory out of 3000000
+ 11622 strings out of 479321
+ 201229 string characters out of 2856583
+ 652702 words of memory out of 3000000
  28949 multiletter control sequences out of 15000+600000
  409683 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,6n,116p,10623b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,6n,116p,10621b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmcsc10.pfb><C:/Users/marti/AppData/Local/Programs/MiKTeX/fonts/type1/
@@ -619,7 +626,7 @@ s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/marti/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/marti/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/marti/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Essay_70478294_Teamprojekt.pdf (4 pages, 94215 bytes).
+Output written on Essay_70478294_ITProjekt.pdf (4 pages, 94215 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
