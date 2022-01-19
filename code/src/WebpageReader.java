@@ -1,5 +1,8 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.LinkedList;
+import java.net.URLConnection;
 import java.util.Scanner;
 
 public class WebpageReader {
@@ -20,7 +23,7 @@ public class WebpageReader {
 		      //Retrieving the String from the String Buffer object
 		      text = sb.toString();
 		      //Removing the HTML tags
-		      text = text.replaceAll("(?s)<[^>]*>(\\s*<[^>]*>)*", " ");  //"<[{^>]}*>", ""
+		      text = text.replaceAll("(?s)<[^>]*>(\\s*<[^>]*>)*", " ");
 		}
 		catch (Exception e) {
 			
@@ -28,37 +31,30 @@ public class WebpageReader {
 		return text;
 	}
 	
-	public static LinkedList<String> divString(String s) {
-		LinkedList<String> result = new LinkedList<String>();
-		String[] split = s.split(" ", 0);
-		return result;
-	}
-	
-	
-	/**		URL url = null;
-	URLConnection con = null;
-	
-	try {
-		url = new URL("https://Google.com");
-		con = url.openConnection();
-		InputStreamReader reader = new InputStreamReader(con.getInputStream(), "UTF8");
-		BufferedReader buf = new BufferedReader(reader);
-		
+	/**
+	public static String getTextFromURL1(String url) {
 		String line = "";
-		while (true) {
-			line = buf.readLine();
-			if (line != null) {
-				line = line.replaceAll("(?s)<[^>]*>(\\s*<[^>]*>)*", " ");
-				System.out.println(line);
-			} else {
-				break;
-			}
-		}
 		
-	} catch (IOException e) {
-		e.printStackTrace();
-	}*/
-	
-	
-
+		try {
+			URL url1 = new URL(url);
+			URLConnection con = url1.openConnection();
+			InputStreamReader reader = new InputStreamReader(con.getInputStream(), "UTF8");
+			BufferedReader buf = new BufferedReader(reader);
+			
+			while (true) {
+				line = buf.readLine();
+				if (line != null) {
+					line = line.replaceAll("(?s)<[^>]*>(\\s*<[^>]*>)*", " ");
+					System.out.println(line);
+				} else {
+					break;
+				}
+			return line;
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return line;
+	}
+	*/
 }

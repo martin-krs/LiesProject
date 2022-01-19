@@ -4,8 +4,8 @@
 \contentsline {section}{\numberline {3}Begriffe}{3}{}%
 \contentsline {section}{\numberline {4}Soll-Stand}{3}{}%
 \contentsline {subsection}{\numberline {4.1}Funktionen}{4}{}%
-\contentsline {subsection}{\numberline {4.2}Daten}{4}{}%
-\contentsline {subsection}{\numberline {4.3}Regeln}{5}{}%
-\contentsline {subsection}{\numberline {4.4}Nichtfunktionale Anforderungen}{5}{}%
-\contentsline {section}{\numberline {5}Dokumentenhistorie}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Daten}{11}{}%
+\contentsline {subsection}{\numberline {4.3}Regeln}{11}{}%
+\contentsline {subsection}{\numberline {4.4}Nichtfunktionale Anforderungen}{11}{}%
+\contentsline {section}{\numberline {5}Dokumentenhistorie}{12}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

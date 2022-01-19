@@ -7,32 +7,19 @@ public class Lies {
 	
 	public static LinkedList<String> text = new LinkedList<String>();
 	
+	public static SyllablesDeriver sd = new SyllablesDeriver();
+	
 	public static void startProcess(String url) {
 		// Filtert den Text der website und spielt ihn ab. Man hat die Möglichkeit zu pausieren,
 		// wieder zu starten, oder das Programm zu beenden.
 		String opt = "";
 		String pagetext = WebpageReader.getTextFromURL(url);
-		text = WebpageReader.divString(pagetext);
+		String[] sylList = sd.getSyllables(pagetext);
 		
-		/**
-		for (int i = 0; i < 40; i++) {
-			if (i % 4 == 0) {
-				AudioPlayer.silben[i] = "au";
-			} else if (i % 4 == 1){
-				AudioPlayer.silben[i] = "to";
-			} else if (i % 4 == 2){
-				AudioPlayer.silben[i] = "ha";
-			} else {
-				AudioPlayer.silben[i] = "au";
-			}
-		}*/
-		
-		AudioPlayer.silben[0] = "ha";
-		AudioPlayer.silben[1] = "lo";
-		AudioPlayer.silben[2] = "au";
-		AudioPlayer.silben[3] = "to";
-		AudioPlayer.silben[4] = "and";
-		AudioPlayer.silben[5] = "abe";
+		AudioPlayer.syls = new String[sylList.length];
+		for (int i = 0; i < sylList.length; i++) {
+			AudioPlayer.syls[i] = sylList[i];
+		}
 		
 		// Startet einen separaten eigenen Thread, der sich um das vorlesen kümmert.
 		// Dadurch blockiert die Eingabe für Pause und exit nicht das Vorlesen.
@@ -61,7 +48,7 @@ public class Lies {
 	public static void lies(String url) {
 		// Beendet auf wunsch das Programm, oder startet einen Lies-Process
 		String opt = "";
-		System.out.println("Willkommen bei Lies!\nUm den Text vorzulesen, drücke 'l',\num zu pausieren oder fortzusetzen, drücke 's',\num zu beenden, drücke 'e'.\n");
+		System.out.println("Willkommen bei Lies!\nUm den Text vorzulesen, drücken Sie 'l',\nUm zu pausieren oder fortzusetzen, drücken Sie 's',\nUm zu beenden, drücken Sie 'e'.\n");
 		opt = sc.nextLine();
 		switch (opt) {
 		case "l":
@@ -81,8 +68,7 @@ public class Lies {
 	public static void main (String[] args) {
 		// Prüft, ob eine URL am Anfang übergeben wurde
 		try {
-			//String url = "https://" + args[0];
-			String url = "https://www.ostfalia.de/";
+			String url = "https://" + args[0];
 			lies(url);
 		} catch (Exception e) {
 			System.out.println("Es muss eine URL übergeben werden.");

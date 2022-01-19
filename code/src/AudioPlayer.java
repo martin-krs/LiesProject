@@ -9,7 +9,7 @@ public class AudioPlayer {
 	
 	public static int counter = 0;
 	public static boolean play = true;
-	public static String[] silben = new String[40];
+	public static String[] syls;
 
 	private Clip clip;
 
@@ -17,7 +17,6 @@ public class AudioPlayer {
 		File audioFile = new File(path);
 		try {
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
-			//AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(getClass().getResource(path));
 			
 			AudioFormat baseFormat = audioInputStream.getFormat();
 			AudioFormat decodeFormat = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, baseFormat.getSampleRate(), 16,
@@ -35,10 +34,13 @@ public class AudioPlayer {
 	
 	public static void read() {
 		if (play) {
-			if (counter < silben.length) {
-				AudioPlayer aupl = new AudioPlayer("..//res/" + silben[counter] + ".wav");
-				//AudioPlayer aupl = new AudioPlayer("\\" + silben[counter] + ".wav");
-				aupl.play();
+			if (counter < syls.length) {
+				if (syls[counter].equals("LEER")) {
+					// make nothing 
+				} else {
+					AudioPlayer aupl = new AudioPlayer("..//res/" + syls[counter] + ".wav");
+					aupl.play();
+				}
 				counter++;
 			} else {
 				System.exit(0);
