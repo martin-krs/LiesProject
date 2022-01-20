@@ -30,10 +30,10 @@
 
 
 \section{Zweck und Ziel}
-Es soll ein Programm in Java >= 11, mit Open JDK, entwickelt werden, welches mit dem Aufrufen des \glqq Lies.java\grqq Java-Programms den Inhalt einer beliebigen Webseite vorlesen soll. Dabei muss beachtet werden das die nicht dargestellten Bestandteile, zum Beispiel Tags und Metadaten, nicht vorgelesen werden sollen. Dieses Programm soll entwickelt werden um zum Beispiel Personen mit Sehbehinderung Webseiten hinter URLs inhaltlich zeigen zu können. Dieses Pflichtenheft basiert auf dem dazugehörigem Lastenheft und beinhaltet alle Zwecke und Ziele des Lastenhefts außer sie werden ausgeschlossen.
+Es soll ein Programm in Java $>=$ 11, mit Open JDK, entwickelt werden, welches mit dem Aufrufen des \glqq Lies.java\grqq Java-Programms den Inhalt einer beliebigen Webseite vorlesen soll. Dabei muss beachtet werden das die nicht dargestellten Bestandteile, zum Beispiel Tags und Metadaten, nicht vorgelesen werden sollen. Dieses Programm soll entwickelt werden, um zum Beispiel Personen mit Sehbehinderung Webseiten hinter URLs inhaltlich zeigen zu können. Dieses Pflichtenheft basiert auf dem dazugehörigem Lastenheft und beinhaltet alle Zwecke und Ziele des Lastenheftes außer sie werden ausgeschlossen.
 
 \section{Abgrenzung}
-Das Programm soll kein Graphic User Interface (GUI) enthalten und dem Programm wird es ebenfalls fast nur möglich sein Deutsche Webseiten vorzulesen, aufgrund von den auf Deutsch eingelesenen Silben. Das Proramm wird unter Windows geschrieben und getestet.
+Das Programm soll kein Graphical User Interface (GUI) enthalten und dem Programm wird es ebenfalls fast nur möglich sein, Deutsche Webseiten vorzulesen, aufgrund von den auf Deutsch eingelesenen Silben. Das Proramm wird unter Windows geschrieben und getestet.
 
 \section{Begriffe}
 \begin{itemize}
@@ -50,7 +50,7 @@ Das Programm soll kein Graphic User Interface (GUI) enthalten und dem Programm w
 Was soll erreicht werden?
 Das Programm soll einen Text von einer Website, deren URL dem Programm übergeben wurde, einlesen und dann vorlesen.
 Wie soll das erreicht werden?
-Das Programm besteht im Wesentlichen aus zwei Teilen: dem Einlesen und dem Vorlesen. Beim Einlesen werden zuerst Daten von der Website abgegriffen und der HTML-Code geparst. Für das Vorlesen müssen Start, Stopp, das Trennen des Texts in Silben und das Wandeln der Silben in gesprochene Sprache. Die Silben müssen dementsprechend noch eingesprochen werden.
+Das Programm besteht im Wesentlichen aus zwei Teilen: dem Einlesen und dem Vorlesen. Beim Einlesen werden zuerst Daten von der Website gelesen und der HTML-Code geparst. Für das Vorlesen müssen Start, Stopp, das Trennen des Texts in Silben und das Wandeln der Silben in gesprochene Sprache. Die Silben müssen dementsprechend noch eingesprochen werden.
 Was kann noch erreicht werden?
 Es könnte eine Warnungen ausgegeben werden, wenn der Text wahrscheinlich nicht auf Deutsch ist, zu lang ist oder die wav-Dateien, die zum Vorlesen nötig sind, nicht gefunden werden. Außerdem könnte der vorgelesene Text ausgegeben werden.
 
@@ -91,7 +91,7 @@ LF3: Der Text aus einer Webseite wird herauskopiert.
 
 \newpage
 
-LF4: Der Text wird geparst und die Steuerzeichen werden heraus gefiltert.
+LF4: Der Text wird geparst und die Steuerzeichen werden herausgefiltert.
 \begin{figure}[hp!]
  \centering
  \includegraphics[width=0.6\textwidth]{res/LF4}
@@ -174,6 +174,7 @@ LF7: Der Thread kümmert sich in einer Endlosschleife um das Vorlesen nach einer
 	\item | Patricia Weber | Regeln, Nichfunktionale Anforderungen | 13.12.21
 	\item | Martin Krause | Deckblatt, Inhaltsverzeichnis, Funktionen bearbeitet | 13.12.21
 	\item | Martin Krause | Funktionen grafisch eingefügt, Deckblatt bearbeitet | 19.01.22
+	\item | Marcel Pulst | Dokument korrigiert | 20.01.22
 \end{enumerate}
  
 \end{document}
